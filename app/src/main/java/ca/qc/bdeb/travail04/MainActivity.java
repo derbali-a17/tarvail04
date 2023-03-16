@@ -32,4 +32,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+    public void lancerNumero3(View view) {
+        Intent intent = new Intent(this, Numero3Activity.class);
+        startActivity(intent);
+    }
 }
